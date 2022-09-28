@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./misc/css/style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body class="text-center">
+
+    <!-- 
+    <div class="my-container form-floating">
+
+        <div class="container m-5">
+
+            <div class="d-flex justify-content-center row">
+               <div class="col-md-6">
+                <div class="card p-5">
+
+
+                    
+                    <div class="p-2">
+                        <label for="userName" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="userName">
+                    </div>
+
+
+                    <div class="p-2">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+
+                    <div class="m-2">
+                        <span>New User? <a class="register-link" href="./register.html">Regiter</a></span>
+                    </div>
+
+                    <div class="m-1">
+                        <button class="w-100 btn btn-primary">Login</button>
+                    </div>
+
+
+
+                </div> 
+               </div> 
+            </div>
+
+        </div>
+        
+
+
+    </div>
+
+ -->
+
+
+    <main class="form-signin w-100 m-auto">
+        <!-- my-card is for the border -->
+        <div class="my-card p-5">
+            <form class="m-auto">
+
+                <img class="img-logo" width="72" src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo.svg"
+                    alt="logo">
+                <h1 class="h3 mt-3 mb-3 fw-normal">LOGIN</h1>
+
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="your@email.com">
+                    <label for="floatingInput">Email Address</label>
+                </div>
+
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+
+                <div class="container">
+                    <div class="row pt-3">
+
+                        <div class="col">
+                            <div class="checkbox mb-3">
+                                <label>
+                                    <input type="checkbox" value="remember-me"> Remember me
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <span>
+                                <a class="register-link" href="./register.html">Register</a>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="w-100 btn btn-lg btn-primary" type="submit" onclick="showMe()">Sign in</button>
+
+
+
+            </form>
+        </div>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+
+    <script src="./misc/js/index.js"></script>
+
+</body>
+
+</html>
